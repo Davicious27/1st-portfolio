@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background-color: #e8f1f5;
+}
+nav{
+    background-color: #005691;
+    height: 50px;
+    width: 1516px;
+    padding: 30px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+nav a {
+    color: #000000;
+    font-size: 35px;
+    /*text decorator remueve el underline en los links */
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div{
+    margin: 20px;
+}
+
+#logo-Bio{
+    height: 50px;
+}
+
+h1{
+    size: 40px;
+    font-family: "Lucida Sans";
+    color: #9db802;
+}
+
+.mr-md{
+    margin-right: 20px;
+}
+.p1-test{ 
+    size: 25px;
+    color: #fd7c84;
+    background-color: #cfcdcb;
+    text-align: center;
+    text-decoration: azure;
+}
